@@ -42,7 +42,7 @@ function checker(){
         /*We dont change the random number value here*/
       }
       else if (life ==0){
-        alert("Game Over.The Correct is " +getRandom)
+        alert("Game Over.The correct number is " +getRandom)
         life=3
         getRandom = Math.floor(Math.random() * (max - min + 1)) + min;
         text = "Please Enter a number for a new game"
